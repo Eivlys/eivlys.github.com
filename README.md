@@ -1,4 +1,4 @@
-eivlys.github.com
+eivlys.github.com/index.html
 =================
 
 github pages
