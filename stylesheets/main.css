@@ -1,9 +1,9 @@
 body{
-     background-attachment:fixed;
-     background-color:#777;
-     background-size:cover;
-     background-repeat:no-repeat;
-     font-family:Helvetica Neue,Microsoft Yahei,Hiragino Sans GB,Microsoft Sans Serif,WenQuanYi Micro Hei,sans-serif}
+background-attachment:fixed;
+background-color:#777;
+background-size:cover;
+background-repeat:no-repeat;
+font-family:Helvetica Neue,Microsoft Yahei,Hiragino Sans GB,Microsoft Sans Serif,WenQuanYi Micro Hei,sans-serif}
 
 body.default-bg{background-image:url(../images/bg.jpg)}
 
@@ -158,3 +158,15 @@ footer.page-wrap>div{margin-left:170px}
 .tag-sidebar .list-group-item:hover,.tag-sidebar .list-group-item:active{background:rgba(30,30,30,.8)}
 
 .col-md-10{background-color:rgba(255,255,255,0.8);filter:alpha(opacity=80);}
+
+.gotoTop {
+display: none;
+position: fixed;
+bottom: 50px;
+right: 50%;
+width: 50px;
+height: 50px;
+margin-right: -565px;
+background: url(/img/gotoTop.png) no-repeat left top;
+cursor: pointer;
+}
