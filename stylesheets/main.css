@@ -159,6 +159,10 @@ footer.page-wrap>div{margin-left:170px}
 
 .col-md-10{background-color:rgba(255,255,255,0.8);filter:alpha(opacity=80);}
 
+element.style {
+display: inline;
+}
+
 .gotoTop {
 display: none;
 position: fixed;
