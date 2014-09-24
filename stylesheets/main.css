@@ -162,18 +162,20 @@ footer.page-wrap>div{margin-left:170px}
 .col-md-10{background-color:rgba(255,255,255,0.8);filter:alpha(opacity=80);}
 
 element.style {
-display: inline;
+visibility: visible
 }
 
-.gotoTop {
-display: none;
+#gotoTop {
+display: block;
 position: fixed;
 bottom: 50px;
 right: 50%;
-width: 50px;
-height: 50px;
+width: 45px;
+height: 45px;
 margin-right: -565px;
-background: url(/img/gotoTop.png) no-repeat left top;
+background:url(/images/gotoTop.png)
+no-repeat 
+left top;
 cursor: pointer;
 }
->>>>>>> FETCH_HEAD
+
