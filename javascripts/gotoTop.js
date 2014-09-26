@@ -1,8 +1,5 @@
 function gotoTop(min_height){
-    //预定义返回顶部的html代码，它的css样式默认为不显示
-    //var gotoTop_html = '<div id="gotoTop" style="visibility:visible;"></div>';
-    //将返回顶部的html代码插入页面上id为page的元素的末尾 
-    //$("#page").append(gotoTop_html);
+
     $("#gotoTop").click(//定义返回顶部点击向上滚动的动画
         function(){$('html,body').animate({scrollTop:0},700);
     }).hover(//为返回顶部增加鼠标进入的反馈效果，用添加删除css类实现
