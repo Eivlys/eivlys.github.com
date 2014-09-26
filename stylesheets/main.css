@@ -13,7 +13,9 @@ a{color:#da6426;text-decoration:none}
 
 .loaded a{-webkit-transition:all .3s ease-out;-moz-transition:all .3s ease-out;-ms-transition:all .3s ease-out;transition:all .3s ease-out}
 
-a:active,a:focus,a:hover{color:#363636}img{max-width:100%}
+a:active,a:focus,a:hover{color:#363636}
+
+img{max-width:100%}
 
 .page-wrap{margin:0 auto;max-width:1100px;width:100%}
 
@@ -162,11 +164,11 @@ footer.page-wrap>div{margin-left:170px}
 .col-md-10{background-color:rgba(255,255,255,0.8);filter:alpha(opacity=80);}
 
 element.style {
-visibility: visible
+display:inline;
 }
 
 #gotoTop {
-display: block;
+display:none;
 position: fixed;
 bottom: 50px;
 right: 50%;
