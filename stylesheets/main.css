@@ -166,6 +166,28 @@ element.style {
 display:inline;
 }
 
+footer{
+    width: 100%;
+    height: 50px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.aboutme a{
+    font-size: 25px;
+    font-family: Arial, Helvatica, sans-serif;
+    text-decoration: none;
+    color: rgba(255,255,255,0.7);
+    border: none;
+}
+
+.aboutme a:hover,.aboutme a:visited{
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+    border: none;
+}
+
 #gotoTop {
 display:none;
 position: fixed;
