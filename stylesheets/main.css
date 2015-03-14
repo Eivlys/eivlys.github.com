@@ -189,16 +189,39 @@ footer{
 }
 
 #gotoTop {
-display:none;
-position: fixed;
-bottom: 50px;
-right: 50%;
-width: 45px;
-height: 45px;
-margin-right: -565px;
-background:url(/images/gotoTop.png)
-no-repeat 
-left top;
-cursor: pointer;
+    display:none;
+    position: fixed;
+    bottom: 50px;
+    right: 50%;
+    width: 45px;
+    height: 45px;
+    margin-right: -565px;
+    background:url(/images/gotoTop.png)
+    no-repeat 
+    left top;
+    cursor: pointer;
+}
+
+.thumbnail{
+    width: 50%;
+    height: auto;
+    float: left;
+    position: relative;
+    text-align: center;
+    border: none;
+}
+.post-title{
+    text-align: center;
+    color: #555;
+}
+.post-header h1:after, .post-header h2:after{
+    border: none;
+}
+.post-content a{
+    color: #333;
+    text-decoration: none;
+}
+.post-content a:hover{
+    color: #888;
 }
 
